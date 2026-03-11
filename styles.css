@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Myfont';
-    src: url('Myfont-Regular.woff2') format('woff2'),
-         url('Myfont-Regular.woff') format('woff'),
-         url('Myfont-Regular.ttf') format('truetype'),
-         url('Myfont-Regular.otf') format('opentype');
+    src: url('https://raw.githubusercontent.com/charlesczar/portfolio/main/Myfont-Regular.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/charlesczar/portfolio/main/Myfont-Regular.woff') format('woff'),
+         url('https://raw.githubusercontent.com/charlesczar/portfolio/main/Myfont-Regular.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/charlesczar/portfolio/main/Myfont-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,14 +33,14 @@ header{
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 100px;
+    padding: 12px 100px;
     position: relative;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
