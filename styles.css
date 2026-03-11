@@ -141,7 +141,8 @@ header{
     justify-content: center;
 }
 
-.social-icons img{
+.social-icons img,
+.footer-social-icons img{
     width: 40px;
     height: 40px;
     object-fit: contain;
@@ -212,10 +213,6 @@ header{
     gap: 30px;
 }
 
-.experience-card{
-    background: #fff;
-}
-
 .card-1 .card-image{
     height: 420px;
 }
@@ -254,19 +251,22 @@ header{
 }
 
 
-.experience-card h3{
+.experience-card h3,
+.project-card h3{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
-.experience-card .year{
+.experience-card .year,
+.project-card .year{
     font-size: 14px;
     color: #666;
     margin-bottom: 10px;
 }
 
-.experience-card .description{
+.experience-card .description,
+.project-card .description{
     font-size: 14px;
     line-height: 1.6;
     color: #333;
@@ -310,12 +310,12 @@ header{
     overflow-x: auto;
     overflow-y: visible;
     padding: 20px 0;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .projects-content::-webkit-scrollbar{
-    display: none; /* Chrome, Safari, Opera */
+    display: none;
 }
 
 .projects-scroll{
@@ -358,26 +358,7 @@ header{
     border-radius: 25px;
 }
 
-.project-card:hover .project-image{
-    height: 550px;
-}
-
-.project-card h3{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.project-card .year{
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 10px;
-}
-
 .project-card .description{
-    font-size: 14px;
-    line-height: 1.6;
-    color: #333;
     padding: 0 20px;
 }
 
@@ -428,12 +409,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.footer-social-icons img{
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
 }
 
 .contacts-content .copyright{
@@ -554,10 +529,6 @@ header{
     }
 
     .project-card .project-image{
-        height: 400px;
-    }
-
-    .project-card:hover .project-image{
         height: 400px;
     }
 

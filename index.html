@@ -42,7 +42,6 @@
             </div>
 
             <div class="main-image">
-                <div class="circle"></div>
                 <img src="https://raw.githubusercontent.com/charlesczar/portfolio/main/pfp.png" alt="Profile Picture" class="imgpfp">
             </div>
 
@@ -142,7 +141,6 @@
             document.querySelectorAll('.project-card').forEach(card => {
                 card.addEventListener('mouseenter', () => {
                     const container = document.querySelector('.projects-content');
-                    const scrollContainer = document.querySelector('.projects-scroll');
                     
                     const containerRect = container.getBoundingClientRect();
                     const cardRect = card.getBoundingClientRect();
